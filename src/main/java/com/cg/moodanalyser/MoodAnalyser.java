@@ -2,9 +2,6 @@ package com.cg.moodanalyser;
 
 public class MoodAnalyser {
 	
-//	public static void main(String[] args) {
-//	System.out.println("Welcome to Mood analyser");
-//	}
 	private String message;
 	public MoodAnalyser() {
 		
@@ -13,14 +10,19 @@ public class MoodAnalyser {
 	public String MoodAnalyser(String message)
 	{
 		this.message = message;
-		return analyseMood(message);
+		return analyseMood();
 	}
 	
 	
-	public String analyseMood(String message) {
+	public String analyseMood() {
 		if (message.contains("any"))
 			return "happy";
 		else
 			return "sad";
 	}
+
+//	public String MoodAnalyser(String string) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
 }
