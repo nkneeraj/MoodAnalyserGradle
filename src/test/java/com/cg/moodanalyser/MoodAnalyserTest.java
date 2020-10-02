@@ -7,7 +7,7 @@ public class MoodAnalyserTest {
 	@Test
 	public void stringHasSad() {
 		MoodAnalyser obj = new MoodAnalyser();
-		String mood = obj.analyseMood("I am sad");
+		String mood = obj.MoodAnalyser("I am sad");
 		System.out.println(mood);
 		Assert.assertEquals("sad", mood);
 	}
@@ -15,7 +15,7 @@ public class MoodAnalyserTest {
 	@Test
 	public void stringHasHappy() {
 		MoodAnalyser obj = new MoodAnalyser();
-		String mood = obj.analyseMood("I am in any mood");
+		String mood = obj.MoodAnalyser("I am in any mood");
 		System.out.println("happy");
 		Assert.assertEquals("happy", mood);
 	}
