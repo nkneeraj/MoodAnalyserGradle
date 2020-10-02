@@ -15,10 +15,16 @@ public class MoodAnalyser {
 	
 	
 	public String analyseMood() {
+		try {
 		if (message.contains("any"))
 			return "happy";
 		else
 			return "sad";
+		}
+		catch(Exception e)
+		{
+			return "null";
+		}
 	}
 
 //	public String MoodAnalyser(String string) {
