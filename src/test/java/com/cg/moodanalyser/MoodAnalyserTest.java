@@ -12,12 +12,12 @@ public class MoodAnalyserTest {
 		Assert.assertEquals("sad", mood);
 	}
 
-	@Test
-	public void stringHasHappy() {
-		MoodAnalyser obj = new MoodAnalyser();
-		String mood = obj.analyseMood("I am Happy");
-		System.out.println(mood);
-		Assert.assertEquals("happy", mood);
-	}
+//	@Test
+//	public void stringHasHappy() {
+//		MoodAnalyser obj = new MoodAnalyser();
+//		String mood = obj.analyseMood("I am Happy");
+//		System.out.println(mood);
+//		Assert.assertEquals("happy", mood);
+//	}
 
 }
